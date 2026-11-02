@@ -1,0 +1,23 @@
+{
+  "name": "detector-encontros-espaciais",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Detector de encontros geoespaciais por spatial hashing.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "tsx src/main.ts",
+    "start:prod": "node dist/main.js",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "csv-parse": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
+
